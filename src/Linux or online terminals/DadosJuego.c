@@ -20,12 +20,12 @@ void verificar() {
 		
 	} else if(strcmp(opcion, "N") == 0) {
 		printf("\n\nOk\n\n");
-		usleep(1500);
+		usleep(1500000);
 		system("exit");
 		
 	} else {
-		perror("\n\nEntrada errónea\n\n");
-		usleep(1500);
+		perror("\n\nEntrada errÃ³nea\n\n");
+		usleep(1500000);
 		system("exit");
 	}
 }
@@ -37,9 +37,9 @@ void aleatorio() {
 			printf(dado1[i]);
 		}
 		
-		printf("\n\nEl número escogido es el 1\n\n");
+		printf("\n\nEl nÃºmero escogido es el 1\n\n");
 		
-		usleep(3000);
+		usleep(3000000);
 		
 		verificar();
 		
@@ -48,9 +48,9 @@ void aleatorio() {
 			printf(dado2[ii]);
 		}
 		
-		printf("\n\nEl número escogido es el 2\n\n");
+		printf("\n\nEl nÃºmero escogido es el 2\n\n");
 		
-		usleep(3000);
+		usleep(3000000);
 		
 		verificar();
 		
@@ -59,9 +59,9 @@ void aleatorio() {
 			printf(dado3[iii]);
 		}
 		
-		printf("\n\nEl número escogido es el 3\n\n");
+		printf("\n\nEl nÃºmero escogido es el 3\n\n");
 		
-		usleep(3000);
+		usleep(3000000);
 		
 		verificar();
 		
@@ -70,9 +70,9 @@ void aleatorio() {
 			printf(dado4[iiii]);
 		}
 		
-		printf("\n\nEl número escogido es el 4\n\n");
+		printf("\n\nEl nÃºmero escogido es el 4\n\n");
 		
-		usleep(3000);
+		usleep(3000000);
 		
 		verificar();
 		
@@ -81,9 +81,9 @@ void aleatorio() {
 			printf(dado5[iiiii]);
 		}
 		
-		printf("\n\nEl número escogido es el 5\n\n");
+		printf("\n\nEl nÃºmero escogido es el 5\n\n");
 		
-		usleep(3000);
+		usleep(3000000);
 		
 		verificar();
 		
@@ -92,9 +92,9 @@ void aleatorio() {
 			printf(dado6[iiiiii]);
 		}
 		
-		printf("\n\nEl número escogido es el 6\n\n");
+		printf("\n\nEl nÃºmero escogido es el 6\n\n");
 		
-		usleep(3000);
+		usleep(3000000);
 		
 		verificar();
 		
